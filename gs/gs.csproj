@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AC05709-12BE-4DFC-ABFA-DAEC666228F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gs</RootNamespace>
+    <AssemblyName>gs</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HandyControl, Version=3.4.0.0, Culture=neutral, PublicKeyToken=45be8712787a1e5b, processorArchitecture=MSIL">
+      <HintPath>..\packages\HandyControl.3.4.0\lib\net48\HandyControl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WpfAnimatedGif, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9e7cd3b544a090dc, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.2.0.2\lib\net40\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="pages\home\clo\clopg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\eve\evepg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\js\contentpage2\infpage\ainfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\home\js\contentpage2\infpage\einfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\home\js\contentpage2\infpage\qinfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\home\js\contentpage\infpage\ainfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\js\contentpage\infpage\einfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\js\contentpage\infpage\qinfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\js\contentpage\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\js\jspg2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\home\js\jspg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\sys\syspg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\home\wq\wqpg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\loader\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\home\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pages\home\clo\clopg.xaml.cs">
+      <DependentUpon>clopg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\eve\evepg.xaml.cs">
+      <DependentUpon>evepg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage2\infpage\ainfo.xaml.cs">
+      <DependentUpon>ainfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage2\infpage\einfo.xaml.cs">
+      <DependentUpon>einfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage2\infpage\qinfo.xaml.cs">
+      <DependentUpon>qinfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage\infpage\ainfo.xaml.cs">
+      <DependentUpon>ainfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage\infpage\einfo.xaml.cs">
+      <DependentUpon>einfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage\infpage\qinfo.xaml.cs">
+      <DependentUpon>qinfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\contentpage\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\jspg2.xaml.cs">
+      <DependentUpon>jspg2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\js\jspg.xaml.cs">
+      <DependentUpon>jspg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\sys\syspg.xaml.cs">
+      <DependentUpon>syspg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\wq\wqpg.xaml.cs">
+      <DependentUpon>wqpg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\loader\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\home\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pages\home\js\contentpage2\infpage\vis.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\line.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\hid.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\ca6fb258999a3d084a7fbd05682f75f0_8148779567082559465.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\border01.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\a40a7f89b4c806e1b8a772e5f29fa61b_6921268512622270005.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\835be50fdd3df7d5c6fec9d672f4f773_4714743775357032464.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\5de7d44cb09f44d09d95cfcc727ed5cd_1195001532646245112.gif" />
+    <Resource Include="pages\home\js\contentpage2\infpage\14378a67d7a98d39596ed94f15c94eac_8434091239348418203.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\0SMDwAAAAAElFTkSuQmCC.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\0fac2d4f5da420698b7027f7095a4113_5209639421725591094.png" />
+    <Resource Include="pages\home\js\contentpage2\infpage\03f82918ca9e6c5560d1b65b6f790cce_5784122036053858779.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\5de7d44cb09f44d09d95cfcc727ed5cd_1195001532646245112.gif" />
+    <Resource Include="pages\home\js\contentpage\infpage\03f82918ca9e6c5560d1b65b6f790cce_5784122036053858779.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\0fac2d4f5da420698b7027f7095a4113_5209639421725591094.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\14378a67d7a98d39596ed94f15c94eac_8434091239348418203.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\835be50fdd3df7d5c6fec9d672f4f773_4714743775357032464.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\a40a7f89b4c806e1b8a772e5f29fa61b_6921268512622270005.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\ca6fb258999a3d084a7fbd05682f75f0_8148779567082559465.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\hid.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\vis.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\0SMDwAAAAAElFTkSuQmCC.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\line.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\border01.png" />
+    <Resource Include="pages\home\js\contentpage\029bef4ade1c6267a6f36ed2435350b4_8282358605369216198.png" />
+    <Resource Include="pages\home\js\contentpage\e79b69c0ef491010db0ebca06d117e1e_597996259659400827.png" />
+    <Resource Include="pages\home\js\contentpage\new.png" />
+    <Resource Include="pages\home\js\contentpage\624a56235aca47d1390dcfee1a4057e1_6728766873660929243.png" />
+    <Resource Include="pages\home\js\contentpage\c9fc600ef204d827480879c386dffc79_3495272291353672486.png" />
+    <Resource Include="pages\home\js\contentpage\d234f09ac6929c4fd419ffd1a257105e_4509773805935408089.png" />
+    <Resource Include="pages\home\js\contentpage\ef3664246f92f1fd45b5819387312b87_3801708708812573307.png" />
+    <Resource Include="pages\home\js\contentpage\material-bg.739a1566..png" />
+    <Resource Include="pages\home\js\bar2.png" />
+    <Resource Include="pages\home\js\barbtn.png" />
+    <Resource Include="pages\home\js\bar.png" />
+    <Resource Include="pages\home\js\0169247f9011f0e56a3fb9a948a90d38_4240381583480940523.png" />
+    <Resource Include="pages\home\js\94eb89c41377debfc1d1cdd2fc6e7736_6549042898071778328.png" />
+    <Resource Include="pages\home\js\rolhid.png" />
+    <Resource Include="pages\home\js\rolvis.png" />
+    <Resource Include="pages\home\js\clip.png" />
+    <Resource Include="pages\home\js\summary.ec8bc881..png" />
+    <Resource Include="pages\home\boxbg.png" />
+    <Resource Include="pages\home\box02.png" />
+    <Resource Include="pages\home\figure.5a88f8b2..png" />
+    <Resource Include="pages\home\box.23df8ad0..png" />
+    <Resource Include="pages\home\about01.png" />
+    <Resource Include="pages\home\share.png" />
+    <Resource Include="pages\home\syshid.png" />
+    <Resource Include="pages\home\sysvis.png" />
+    <Resource Include="pages\home\evhid.png" />
+    <Resource Include="pages\home\evvis.png" />
+    <Resource Include="pages\home\clovis.png" />
+    <Resource Include="pages\home\clohid.png" />
+    <Resource Include="pages\49.ico" />
+    <Resource Include="pages\home\wqhid.png" />
+    <Resource Include="pages\home\wqvis.png" />
+    <Resource Include="pages\home\jshid.png" />
+    <Resource Include="pages\home\jsvis.png" />
+    <Resource Include="pages\home\homehid.png" />
+    <Resource Include="pages\home\homevis.png" />
+    <Resource Include="pages\home\download.png" />
+    <Resource Include="pages\home\bfc00fba874ea0e786d9a56c1bf7f68d_5586033744478220513.png" />
+    <Resource Include="pages\home\bg.337921f3..jpg" />
+    <Resource Include="pages\home\js\316a87983e9fdae5d1bb7dec3dd3931c_2214248944433503659.png" />
+    <Resource Include="pages\home\js\contentpage\infpage\up.png" />
+    <Content Include="pages\loader\a4852527e9dc8d51d0f6d96fcc9d80ec_4060533869303730186.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\loader\loadingf7abcffc.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pages\home\main\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
