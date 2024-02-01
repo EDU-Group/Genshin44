@@ -189,6 +189,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Theme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="pages\home\clo\clopg.xaml.cs">
@@ -328,6 +332,11 @@
     <Resource Include="pages\home\bg.337921f3..jpg" />
     <Resource Include="pages\home\js\316a87983e9fdae5d1bb7dec3dd3931c_2214248944433503659.png" />
     <Resource Include="pages\home\js\contentpage\infpage\up.png" />
+    <Resource Include="pages\home\8dd03991aa5d488a1389061946e74771_1492148971817551561.png" />
+    <Resource Include="pages\home\ff.png" />
+    <Resource Include="pages\home\rig.png" />
+    <Resource Include="pages\home\survey.8933ac7c..png" />
+    <Resource Include="pages\home\event.1b0f5c49..png" />
     <Content Include="pages\loader\a4852527e9dc8d51d0f6d96fcc9d80ec_4060533869303730186.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

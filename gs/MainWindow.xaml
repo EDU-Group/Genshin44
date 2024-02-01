@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:gs"
         xmlns:hc="https://handyorg.github.io/handycontrol"
         mc:Ignorable="d"
-        Title="原神4.4 | .NET Framework | Powered by Rabbit(kfruit)" Height="720" Width="1280" Background="Black" Icon="/pages/49.ico">
+        Title="原神4.4 | .NET Framework | Powered by Rabbit(kfruit)" Height="720" Width="1280" Background="Black" Icon="/pages/49.ico" SnapsToDevicePixels="True">
     <Grid>
 
         <Viewbox>
