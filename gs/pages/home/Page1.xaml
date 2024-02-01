@@ -116,7 +116,7 @@
                     </TextBlock>
                 </Grid>
                 <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="115,34,232,55"></Image>
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
                 <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/survey.8933ac7c..png" Margin="248,12,23,9"/>
 
 
@@ -140,7 +140,7 @@
                     </TextBlock>
                 </Grid>
                 <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="115,34,232,55"></Image>
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
                 <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/event.1b0f5c49..png" Margin="248,12,23,9"/>
 
             </Grid>
