@@ -4,5 +4,8 @@
 # 截图
 >此位置仅展示已经开发完毕的页面
 >更多版本截图可在发布中找到
+# 
 ![20240202011343](https://github.com/EDU-Group/Genshin44/assets/155817611/14cf28b1-e778-43c2-a5f8-f8e9b1cba895)
+![20240203002927](https://github.com/EDU-Group/Genshin44/assets/155817611/292684c6-bc1a-45be-8977-17b3452a07dc)
+
 
