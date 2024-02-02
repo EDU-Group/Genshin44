@@ -7,7 +7,7 @@
       xmlns:hc="https://handyorg.github.io/handycontrol"
       mc:Ignorable="d" 
       Height="646" 
-      Title="Page1" Width="1311"
+      Title="Page1" Width="1311" Initialized="Page_Initialized" Loaded="Page_Loaded"
       >
 
     <Grid>
@@ -89,62 +89,76 @@
         <Grid>
             <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/box.23df8ad0..png" Margin="168,20,169,-20"/>
         </Grid>
-        <Grid Width="451" Height="227" Margin="244,107,616,312">
-            <Grid Margin="-11,0,0,0">
-                <Image Source="/pages/home/boxbg.png"/>
-                <hc:Carousel AutoRun="True" Height="217" VerticalAlignment="Center" Interval="00:00:03" Margin="10,0,11,0">
-                    <Image RenderOptions.BitmapScalingMode="Fant" Width="441" Source="/pages/home/8dd03991aa5d488a1389061946e74771_1492148971817551561.png" Height="217"/>
-                    <Image RenderOptions.BitmapScalingMode="Fant" Width="441" Source="/pages/home/8dd03991aa5d488a1389061946e74771_1492148971817551561.png" Height="217"/>
-                </hc:Carousel>
-            </Grid>
-        </Grid>
-        <Button HorizontalAlignment="Left" Margin="700,107,0,0" VerticalAlignment="Top" Width="369" Height="108" Background="#01FFFFFF" BorderBrush="{x:Null}" Padding="0,0,0,0">
-            <Grid Height="109" Width="369" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Border Width="367" Height="107" Background="#FFF2EDE1" CornerRadius="2,2,2,2"/>
-                <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
-                <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
-                <Grid Margin="34,0,0,0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50*"/>
-                        <RowDefinition Height="50*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Grid.RowSpan="2" Margin="0,33,0,0" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="18">
+        <ScrollViewer Margin="209,104,222,62" VerticalScrollBarVisibility="Visible">
+            <Grid>
+                <Grid Width="451" Height="227" Margin="36,4,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Grid Margin="-11,0,0,0">
+                        <Image Source="/pages/home/boxbg.png"/>
+                        <hc:Carousel AutoRun="True" Height="217" VerticalAlignment="Center" Interval="00:00:03" Margin="10,0,11,0">
+                            <Image RenderOptions.BitmapScalingMode="Fant" Width="441" Source="/pages/home/8dd03991aa5d488a1389061946e74771_1492148971817551561.png" Height="217"/>
+                            <Image RenderOptions.BitmapScalingMode="Fant" Width="441" Source="/pages/home/8dd03991aa5d488a1389061946e74771_1492148971817551561.png" Height="217"/>
+                        </hc:Carousel>
+                    </Grid>
+                </Grid>
+                <Button HorizontalAlignment="Left" Margin="489,4,0,0" VerticalAlignment="Top" Width="369" Height="108" Background="#01FFFFFF" BorderBrush="{x:Null}" Padding="0,0,0,0">
+                    <Grid Height="109" Width="369" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border Width="367" Height="107" Background="#FFF2EDE1" CornerRadius="2,2,2,2"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Grid Margin="34,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50*"/>
+                                <RowDefinition Height="50*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.RowSpan="2" Margin="0,33,0,0" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="18">
                     专项反馈
-                    </TextBlock>
-                    <TextBlock Grid.RowSpan="1" Grid.Row="1" Grid.ColumnSpan="2" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold">
+                            </TextBlock>
+                            <TextBlock Grid.RowSpan="1" Grid.Row="1" Grid.ColumnSpan="2" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold">
                     新问卷上线
-                    </TextBlock>
-                </Grid>
-                <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/survey.8933ac7c..png" Margin="248,12,23,9"/>
+                            </TextBlock>
+                        </Grid>
+                        <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/survey.8933ac7c..png" Margin="248,12,23,9"/>
 
 
-            </Grid>
-        </Button>
-        <Button HorizontalAlignment="Left" Margin="700,227,0,0" VerticalAlignment="Top" Width="369" Height="108" Background="#01FFFFFF" BorderBrush="{x:Null}" Padding="0,0,0,0">
-            <Grid Height="109" Width="369" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Border Width="367" Height="107" Background="#FFF2EDE1" CornerRadius="2,2,2,2"/>
-                <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
-                <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
-                <Grid Margin="34,0,0,0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50*"/>
-                        <RowDefinition Height="50*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Grid.RowSpan="2" Margin="0,33,0,0" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="18">
+                    </Grid>
+                </Button>
+                <Button HorizontalAlignment="Left" Margin="489,123,0,0" VerticalAlignment="Top" Width="369" Height="108" Background="#01FFFFFF" BorderBrush="{x:Null}" Padding="0,0,0,0">
+                    <Grid Height="107" Width="369" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border Width="367" Background="#FFF2EDE1" CornerRadius="2,2,2,2" Margin="1,2,1,-4"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Grid Margin="34,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50*"/>
+                                <RowDefinition Height="50*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.RowSpan="2" Margin="0,33,0,0" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="18">
                     活动日历
-                    </TextBlock>
-                    <TextBlock Grid.RowSpan="1" Grid.Row="1" Grid.ColumnSpan="2" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold">
+                            </TextBlock>
+                            <TextBlock Grid.RowSpan="1" Grid.Row="1" Grid.ColumnSpan="2" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold">
                     进行中
-                    </TextBlock>
-                </Grid>
-                <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
-                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/event.1b0f5c49..png" Margin="248,12,23,9"/>
+                            </TextBlock>
+                        </Grid>
+                        <Image Source="/pages/home/ff.png" Margin="174,4,0,1"></Image>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/rig.png" Margin="122,34,230,55"></Image>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/event.1b0f5c49..png" Margin="248,12,23,9"/>
 
+                    </Grid>
+                </Button>
+                <Button Width="828" Height="105" Background="#01FFFFFF" BorderBrush="{x:Null}" Padding="0,0,0,0" Margin="30,244,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <Grid Width="827" Height="105">
+                        <Border Height="107" Background="#FFF2EDE1" CornerRadius="2,2,2,2" Margin="0,0,0,-2"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/23f9d165dbcb8013d60bd9a26659b958_1643585977824901546.jpg" Height="105" Margin="20,5,20,5"/>
+
+                    </Grid>
+                </Button>
+                <Frame x:Name="upd" Width="829" BorderBrush="{x:Null}" Source="/pages/home/update/up.xaml" Margin="29,358,22,147" Style="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             </Grid>
-        </Button>
-
+        </ScrollViewer>
+        <Label x:Name="lab" Background="#BFE24B4B" BorderBrush="#FFAD3737" Foreground="White" FontSize="16" Height="42" FontWeight="Bold" Visibility="Hidden" IsHitTestVisible="False">如遇部分内容无法显示，请尝试重新点击标签页</Label>
     </Grid>
 </Page>

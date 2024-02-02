@@ -6,16 +6,19 @@
         xmlns:local="clr-namespace:gs"
         xmlns:hc="https://handyorg.github.io/handycontrol"
         mc:Ignorable="d"
-        Title="原神4.4 | .NET Framework | Powered by Rabbit(kfruit)" Height="720" Width="1280" Background="Black" Icon="/pages/49.ico" SnapsToDevicePixels="True">
+        Title="原神4.4 | .NET Framework | Powered by Rabbit(kfruit)" Height="720" Width="1280" Background="Black" Icon="/pages/49.ico" SnapsToDevicePixels="True" WindowStartupLocation="CenterScreen">
     <Grid>
-
         <Viewbox>
             <Frame x:Name="frame" NavigationUIVisibility="Hidden" Source="/pages/loader/Page1.xaml" BorderBrush="{x:Null}"/>
 
         </Viewbox>
         <Border Margin="10,10,10,10" Width="36" Height="36" Background="#7FFFFFFF" BorderBrush="#CCB5B5B5" CornerRadius="32,32,32,32" BorderThickness="2,2,2,2" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Border.Effect>
+                <DropShadowEffect Direction="0" BlurRadius="12" ShadowDepth="0"/>
+            </Border.Effect>
             <Button Content="工具" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="11" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0,0,0,0"/>
         </Border>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="#7FFFFFFF" FontWeight="Bold" FontSize="9" IsHitTestVisible="False" Margin="4,0,0,4">Rabbit Genshin44_Dev3</TextBlock>
 
     </Grid>
 </Window>

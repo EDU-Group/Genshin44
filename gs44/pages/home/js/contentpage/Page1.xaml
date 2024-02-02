@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:gs.pages.home.js.contentpage"
       mc:Ignorable="d" 
-      Title="Page1" Width="489" Height="679">
+      Title="Page1" Width="489" Height="679" Loaded="Page_Loaded" Initialized="Page_Initialized">
 
     <StackPanel>
         <RichTextBox Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" SelectionTextBrush="{x:Null}" IsReadOnly="True" FontStretch="UltraExpanded" FontWeight="SemiBold" Padding="2,7,2,7" IsHitTestVisible="False">
@@ -83,6 +83,7 @@
                 </Grid>
             </Grid>
         </Border>
-        <Frame Source="/pages/home/js/contentpage2/infpage/ainfo.xaml" BorderBrush="{x:Null}" Margin="0,16,0,0"/>
+        <Frame Style="{x:Null}" x:Name="tf" BorderBrush="{x:Null}" Margin="0,16,0,0" Source="/pages/home/js/contentpage/infpage/ainfo.xaml">
+        </Frame>
     </StackPanel>
 </Page>

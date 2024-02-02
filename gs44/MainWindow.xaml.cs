@@ -25,6 +25,7 @@ namespace gs
             InitializeComponent();
             Pgc();
         }
+
         public static string PageI = "/pages/loader/Page1.xaml";
         private async void Pgc()
         {

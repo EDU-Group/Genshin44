@@ -1,4 +1,6 @@
-﻿using System;
+﻿using gs.pages.home.js.contentpage.infpage;
+using gs44.pages.home.update;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,44 @@ namespace gs.pages.home.js.contentpage
     /// </summary>
     public partial class Page1 : Page
     {
+
         public Page1()
         {
             InitializeComponent();
+            tf.Navigate(new("/pages/home/js/contentpage/infpage/ainfo.xaml", UriKind.Relative));
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            tf.Refresh();
+
+            tf.StopLoading();
+            tf.BeginInit();
+            Uri uri = tf.Source;
+            tf.Refresh();
+            tf.Source = uri;
+            tf.Refresh();
+            tf.EndInit();
+
+        }
+
+        private void Page_Initialized(object sender, EventArgs e)
+        {
+            tf.Refresh();
+        }
+        public class Init : Page1
+        {
+            public void InitAll()
+            {
+                tf.StopLoading();
+                tf.BeginInit();
+                Uri uri = tf.Source;
+                tf.Refresh();
+                tf.Source = uri;
+                tf.Refresh();
+                tf.EndInit();
+                //MessageBox.Show("init");
+            }
         }
     }
 }

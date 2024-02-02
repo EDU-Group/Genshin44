@@ -9,9 +9,25 @@
       mc:Ignorable="d"
       Title="Page1" Height="646" Loaded="Page_Loaded" Width="1311">
     <Grid>
-        <Image Source="/pages/loader/a4852527e9dc8d51d0f6d96fcc9d80ec_4060533869303730186.jpg" RenderOptions.BitmapScalingMode="Fant" Margin="-97,0,-97,0"/>
-        <Image gif:ImageBehavior.AnimatedSource="/pages/loader/loadingf7abcffc.gif" Margin="0,539,0,0" RenderOptions.BitmapScalingMode="Fant" HorizontalAlignment="Center" VerticalAlignment="Top" Height="75" Width="86" />
-        <Rectangle Margin="1312,0,-178,0" Fill="Black"></Rectangle>
-        <Rectangle Margin="-186,0,1312,0" Fill="Black"></Rectangle>
+        <Grid>
+            <Grid.Effect>
+                <BlurEffect x:Name="gridbe" KernelType="Gaussian" RenderingBias="Quality" Radius="0"/>
+            </Grid.Effect>
+            <Image Source="/pages/loader/a4852527e9dc8d51d0f6d96fcc9d80ec_4060533869303730186.jpg" RenderOptions.BitmapScalingMode="Fant" Margin="-97,0,-97,0"/>
+            <Image gif:ImageBehavior.AnimatedSource="/pages/loader/loadingf7abcffc.gif" Margin="0,539,0,0" RenderOptions.BitmapScalingMode="Fant" HorizontalAlignment="Center" VerticalAlignment="Top" Height="75" Width="86" />
+            <Rectangle Margin="1312,0,-178,0" Fill="Black"></Rectangle>
+            <Rectangle Margin="-186,0,1312,0" Fill="Black"></Rectangle>
+        </Grid>
+        <Grid x:Name="load" Background="#A3000000" Margin="-2,0,-2,0" Visibility="Hidden">
+            <Grid Margin="602,268,603,268">
+                <Border CornerRadius="16,16,16,16" Opacity="0.95" Background="#BFFFFFFF"/>
+                <hc:CircleProgressBar IsIndeterminate="True" Background="Black" Width="72" Height="72"/>
+
+            </Grid>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Margin="0,392,0,0" Foreground="White">正在初始化页面框架及组件</TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Margin="0,415,0,0" Foreground="White">请稍后</TextBlock>
+            <ProgressBar x:Name="pgbar" Style="{StaticResource ProgressBarFlat}" Maximum="3" Margin="480,443,481,199"/>
+
+        </Grid>
     </Grid>
 </Page>

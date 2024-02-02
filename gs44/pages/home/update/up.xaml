@@ -1,0 +1,238 @@
+﻿<Page x:Class="gs44.pages.home.update.up"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gs44.pages.home.update"
+      mc:Ignorable="d"
+      Title="up" Height="529" Width="829">
+
+    <Grid>
+        <Grid Width="827">
+            <Border Background="#FFF2EDE1" CornerRadius="2,2,2,2"/>
+            <Border BorderBrush="#FFE9E1D1" CornerRadius="4,4,4,4" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+            <Border BorderBrush="#FFE9E1D1" CornerRadius="20" BorderThickness="2,2,2,2" Margin="4,4,4,4" Background="#FFF2EDE1"/>
+        </Grid>
+        <Image Source="/pages/home/update/upd.png" Width="16" Height="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,19,0,0"/>
+        <TextBlock Foreground="#FF4D566B" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,19,0,0" FontWeight="Bold">
+            最近更新
+            <Run Text="  01-29" Foreground="#FFB89E7E"/>
+        </TextBlock>
+        <TextBlock Foreground="#FF4D566B" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="733,21,0,0" FontWeight="Bold" FontSize="9">
+            <Run Text="内容持续更新中..." Foreground="#FFB89E7E"/>
+        </TextBlock>
+        <Image Source="/pages/home/update/lbar.png" Margin="16,36,16,471" />
+        <WrapPanel Margin="10,55,10,10">
+            <Grid Width="191" Height="149" Margin="6,0,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/122fa101dd3e0d07963ffc6e5ff976e4_76361175416362921.png" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" FontWeight="Bold" Margin="9,93,3,38" Foreground="#FF4D566B">4.4版本活动速递</TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,127,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">版本活动</TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">01-30</TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,0,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/f2a8bf689107e41b1cd69502cd9d00a4_7831510748792839004.jpg" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
+        「急吗？不急喝个早茶先？」——
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+  「骏猊頕首」·嘉明
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">新角色</TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">01-29</TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,0,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/edbe84fa45c1d1e178363ba597625dfc_2717806797030330812.jpg" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    
+        4.4版本「七圣召唤」更新说明
+
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+                    
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">新系统</TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-27
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,0,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/7d21ede6867d5aed849b41056717d436_4760889101316902371.png" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    
+        4.4版本全新武器说明
+
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        新武器
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-27
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="6,8,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/8dd03991aa5d488a1389061946e74771_2366885366703828581.png" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    
+        
+        「如今人间风调雨顺，也就无须本仙
+
+
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+呼风唤雨了。」——「鸾音鹤信」...
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        新角色
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-25
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,8,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/7b59294c898ac1c2e0268154dd2da3cd_3897658764979874026.jpg" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="5,93,7,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    「出席宴会的衣饰穿戴，嗯，就选这一身吧。」——「玄玉瑶芳」甘雨全新衣装
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+                    一身吧。」——「玄玉瑶芳」甘雨...
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        新角色
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-24
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,8,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/1d88d85c2b68c2c81da9de08ccfb28bc_6541991584213996884.png" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="5,93,7,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    「这身衣服…你喜欢吗？」——「冷
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+                    花幽露」申鹤全新衣装展示                
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        新角色
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-24
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="12,8,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/fdd9303f750c32b43bb774701989f45b_3898861774883045566.jpg" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="5,93,7,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    「暗香裁作剑袍饰，竹影拓为侠客
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+                    衣。」——「雨化竹身」行秋全新...              
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        新角色
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-24
+                </TextBlock>
+            </Grid>
+            <Grid Width="191" Height="149" Margin="6,8,0,0">
+                <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
+                <Border Margin="6,6,6,63" Height="80">
+                    <Grid Margin="1.5,2,1.5,-2">
+                        <Border CornerRadius="4,4,4,4" Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/update/7c4821f718efe5e9ae618ba78b28a9d2_3100013373265541201.jpg" Margin="-5,0,-5,0" />
+                        <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
+                    </Grid>
+                </Border>
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
+                    圣遗物快速装备、尘歌壶优化、系统
+                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
+                    与功能迭代来啦——1.17开发组座...
+                </TextBlock>
+                <Border Background="#FFF5EAD7" Margin="10,129,153,4" CornerRadius="8,8,8,8">
+                    <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        优化
+                    </TextBlock>
+                </Border>
+                <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">
+                    01-25
+                </TextBlock>
+            </Grid>
+
+        </WrapPanel>
+    </Grid>
+</Page>

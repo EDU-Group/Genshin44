@@ -5,6 +5,9 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <ApplicationIcon>49.ico</ApplicationIcon>
+    <AssemblyName></AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <OutputPath>bin\x64\Debug\</OutputPath>
@@ -12,6 +15,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="pages\home\23f9d165dbcb8013d60bd9a26659b958_1643585977824901546.jpg" />
+    <None Remove="pages\home\update\122fa101dd3e0d07963ffc6e5ff976e4_76361175416362921.png" />
+    <None Remove="pages\home\update\1d88d85c2b68c2c81da9de08ccfb28bc_6541991584213996884.png" />
+    <None Remove="pages\home\update\7b59294c898ac1c2e0268154dd2da3cd_3897658764979874026.jpg" />
+    <None Remove="pages\home\update\7c4821f718efe5e9ae618ba78b28a9d2_3100013373265541201.jpg" />
+    <None Remove="pages\home\update\7d21ede6867d5aed849b41056717d436_4760889101316902371.png" />
+    <None Remove="pages\home\update\8dd03991aa5d488a1389061946e74771_2366885366703828581.png" />
+    <None Remove="pages\home\update\edbe84fa45c1d1e178363ba597625dfc_2717806797030330812.jpg" />
+    <None Remove="pages\home\update\f2a8bf689107e41b1cd69502cd9d00a4_7831510748792839004.jpg" />
+    <None Remove="pages\home\update\fdd9303f750c32b43bb774701989f45b_3898861774883045566.jpg" />
+    <None Remove="pages\home\update\lbar.png" />
+    <None Remove="pages\home\update\upd.png" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Update="System">
       <Private>True</Private>
@@ -35,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="pages\home\23f9d165dbcb8013d60bd9a26659b958_1643585977824901546.jpg" />
     <Resource Include="pages\home\js\contentpage2\infpage\vis.png" />
     <Resource Include="pages\home\js\contentpage2\infpage\line.png" />
     <Resource Include="pages\home\js\contentpage2\infpage\hid.png" />
@@ -89,6 +113,15 @@
     <Resource Include="pages\home\clovis.png" />
     <Resource Include="pages\home\clohid.png" />
     <Resource Include="pages\49.ico" />
+    <Resource Include="pages\home\update\1d88d85c2b68c2c81da9de08ccfb28bc_6541991584213996884.png" />
+    <Resource Include="pages\home\update\7b59294c898ac1c2e0268154dd2da3cd_3897658764979874026.jpg" />
+    <Resource Include="pages\home\update\7c4821f718efe5e9ae618ba78b28a9d2_3100013373265541201.jpg" />
+    <Resource Include="pages\home\update\7d21ede6867d5aed849b41056717d436_4760889101316902371.png" />
+    <Resource Include="pages\home\update\8dd03991aa5d488a1389061946e74771_2366885366703828581.png" />
+    <Resource Include="pages\home\update\edbe84fa45c1d1e178363ba597625dfc_2717806797030330812.jpg" />
+    <Resource Include="pages\home\update\f2a8bf689107e41b1cd69502cd9d00a4_7831510748792839004.jpg" />
+    <Resource Include="pages\home\update\fdd9303f750c32b43bb774701989f45b_3898861774883045566.jpg" />
+    <Resource Include="pages\home\update\upd.png" />
     <Resource Include="pages\home\wqhid.png" />
     <Resource Include="pages\home\wqvis.png" />
     <Resource Include="pages\home\jshid.png" />
@@ -105,6 +138,9 @@
     <Resource Include="pages\home\rig.png" />
     <Resource Include="pages\home\survey.8933ac7c..png" />
     <Resource Include="pages\home\event.1b0f5c49..png" />
+    <Resource Include="pages\home\update\122fa101dd3e0d07963ffc6e5ff976e4_76361175416362921.png" />
+    <Content Include="49.ico" />
+    <Content Include="pages\home\update\lbar.png" />
     <Content Include="pages\loader\a4852527e9dc8d51d0f6d96fcc9d80ec_4060533869303730186.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

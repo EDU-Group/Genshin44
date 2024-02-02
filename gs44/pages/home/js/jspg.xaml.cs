@@ -23,6 +23,8 @@ namespace gs.pages.home.js
         public jspg()
         {
             InitializeComponent();
+            infoframe.Navigate(new Uri("/pages/home/js/contentpage/Page1.xaml",0));
+
         }
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
@@ -56,7 +58,21 @@ namespace gs.pages.home.js
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            infoframe.Source = new Uri("/pages/home/js/contentpage/Page1.xaml", 0);
+            infoframe.Refresh();
+        }
+        public class Init : jspg
+        {
+            public void InitAll()
+            {
+                infoframe.StopLoading();
+                infoframe.BeginInit();
+                Uri uri = infoframe.Source;
+                infoframe.Refresh();
+                infoframe.Source = uri;
+                infoframe.Refresh();
+                infoframe.EndInit();
+
+            }
         }
     }
 }
