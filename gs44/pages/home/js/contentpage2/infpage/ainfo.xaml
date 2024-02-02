@@ -1,0 +1,70 @@
+﻿<Page x:Class="gs.pages.home.js.contentpage2.infpage.ainfo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gs.pages.home.js.contentpage2.infpage"
+      mc:Ignorable="d" 
+      xmlns:gif ="http://wpfanimatedgif.codeplex.com"
+      Title="ainfo" Width="484" Height="296">
+
+    <Grid>
+        <Image Source="/pages/home/js/contentpage/infpage/border01.png"></Image>
+        <TextBlock Margin="20,19,-20,0" Height="18" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF4C5568">
+             天赋
+        </TextBlock>
+        <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/0SMDwAAAAAElFTkSuQmCC.png" Margin="20,35,25,246"/>
+        <Button Padding="0,0,0,0" Background="#01FFFFFF" BorderBrush="{x:Null}" Height="58" Width="58" HorizontalAlignment="Left" Margin="20,56,0,0" VerticalAlignment="Top" Cursor="Hand">
+            <Grid Width="56" Height="56">
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/vis.png"/>
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/14378a67d7a98d39596ed94f15c94eac_8434091239348418203.png" Margin="8,5,8,5"/>
+
+            </Grid>
+        </Button>
+        <Button Padding="0,0,0,0" Background="#01FFFFFF" BorderBrush="{x:Null}" Height="58" Width="58" HorizontalAlignment="Left" Margin="102,56,0,0" VerticalAlignment="Top" Cursor="Hand">
+            <Grid Width="56" Height="56">
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/hid.png" IsHitTestVisible="False"/>
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/ca6fb258999a3d084a7fbd05682f75f0_8148779567082559465.png" Margin="11,6,11,4" IsHitTestVisible="False" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            </Grid>
+        </Button>
+        <Button Padding="0,0,0,0" Background="#01FFFFFF" BorderBrush="{x:Null}" Height="58" Width="58" HorizontalAlignment="Left" Margin="186,56,0,0" VerticalAlignment="Top" Cursor="Hand">
+            <Grid Width="56" Height="56">
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/hid.png" IsHitTestVisible="False"/>
+                <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/infpage/03f82918ca9e6c5560d1b65b6f790cce_5784122036053858779.png" IsHitTestVisible="False" HorizontalAlignment="Center" VerticalAlignment="Center" Height="36" Width="36"/>
+            </Grid>
+        </Button>
+        <Border Margin="24,119,280,72" BorderBrush="#FFE0D6C4" BorderThickness="2,2,2,2" CornerRadius="2,2,2,2">
+            <Grid>
+                <Image RenderOptions.BitmapScalingMode="Fant" gif:ImageBehavior.AnimatedSource="/pages/home/js/contentpage/infpage/5de7d44cb09f44d09d95cfcc727ed5cd_1195001532646245112.gif" Margin="-1,-1,-1,-1"/>
+                <Border BorderBrush="#FFE0D6C4" BorderThickness="2,2,2,2" CornerRadius="2,2,2,2" Width="180" Height="105" Margin="-2,-2,-2,-2"/>
+            </Grid>
+        </Border>
+        <Border BorderBrush="#FFE3DCCF" BorderThickness="0,0,0,1" Margin="215,119,35,157">
+            <TextBlock Foreground="#FF4C5568" FontWeight="DemiBold" FontSize="11" Margin="0,0,25,0">
+                普通攻击·清风散花词
+            </TextBlock>
+        </Border>
+        <TextBlock Foreground="#FF9F846A" FontWeight="DemiBold" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="215,148,0,0">
+                普通攻击
+        </TextBlock>
+        <Label Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF9F846A" FontSize="11" Width="270" HorizontalAlignment="Left" Margin="204,156,0,0" VerticalAlignment="Top" Height="43" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">
+            旋卷清风，进行至多四段的攻击，造成风元素伤
+        </Label>
+        <Label Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF9F846A" FontSize="11" Width="270" HorizontalAlignment="Left" Margin="204,172,0,0" VerticalAlignment="Top" Height="42" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">
+            害。
+        </Label>
+        <TextBlock Foreground="#FF9F846A" FontWeight="DemiBold" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="215,214,0,0">
+                重击
+        </TextBlock>
+        <Label Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF9F846A" FontSize="11" Width="270" HorizontalAlignment="Left" Margin="204,224,0,0" VerticalAlignment="Top" Height="43" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">
+            消耗一定体力，挥出一枚直线飞掠的清风之环，
+        </Label>
+        <TextBlock Background="{x:Null}" Foreground="#FF9F846A" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,101,34" FontSize="11">
+            对路径上的敌人造成
+            <Run Foreground="#FF36CFC9">
+                风元素伤害
+            </Run>。
+        </TextBlock>
+    </Grid>
+</Page>

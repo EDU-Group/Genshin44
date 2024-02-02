@@ -1,0 +1,88 @@
+﻿<Page x:Class="gs.pages.home.js.contentpage.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gs.pages.home.js.contentpage"
+      mc:Ignorable="d" 
+      Title="Page1" Width="489" Height="679">
+
+    <StackPanel>
+        <RichTextBox Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" SelectionTextBrush="{x:Null}" IsReadOnly="True" FontStretch="UltraExpanded" FontWeight="SemiBold" Padding="2,7,2,7" IsHitTestVisible="False">
+            <FlowDocument LineHeight="6">
+                <Paragraph FontWeight="Normal" FontSize="11" Padding="0,0,0,0" Foreground="#FF4C5568">闲云是一位可以提供持续治疗，并为队友提供方便强力的下落攻击手段的辅助型角色。
+
+                </Paragraph>
+                <Paragraph LineHeight="6" FontWeight="Normal" FontSize="11" Foreground="#FF4C5568">
+                    闲云的元素战技在短时内可至多施放三次「步天梯」进行连续跳跃。在此期间，闲云的下落攻击将
+                    <Run>转化为闲云冲击波，对敌人造成</Run>
+                    <Run Foreground="#FF36CFD3">风元素范围伤害</Run>
+                    。
+                </Paragraph>
+                <Paragraph FontWeight="Normal" FontSize="11" Margin="0,Auto,Auto,Auto" Foreground="#FF4C5568">
+                    闲云的元素爆发将召唤机关「竹星」，间歇性为全队角色恢复生命值。「竹星」的仙力助推效果，能提升全队角色的跳跃高度，并在角色完成下落攻击时，触发额外的
+                    <Run Foreground="#FF36CFD3" BaselineAlignment="Top">风元素追击</Run> 。
+                </Paragraph>
+                <Paragraph FontWeight="Normal" FontSize="11" Margin="0,Auto,Auto,Auto" Foreground="#FF4C5568">
+                    此外，她的天赋还会在仙力助推效果存在时，基于自身攻击力，提高附近的当前场上角色下落攻击坠地冲击的伤害。
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Border Width="472" Height="109" BorderBrush="#99CFC4AD" BorderThickness="1,1,1,1" CornerRadius="4,4,4,4">
+            <Grid Height="109" Width="472">
+                <Border BorderBrush="#99CFC4AD" Margin="12,0,12,81" Height="28" BorderThickness="0,0,0,1">
+                    <TextBlock Margin="0,4,0,0" Height="18" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF4C5568">
+                        突破素材预览：
+                        <Run Foreground="#FF987E65">
+                            自在松石碎屑、清水玉、导能绘卷、全新角色培养素材等
+                        </Run>
+                    </TextBlock>
+                </Border>
+                <Grid Margin="178,27,236,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/624a56235aca47d1390dcfee1a4057e1_6728766873660929243.png" Margin="5,3,5,3"/>
+                </Grid>
+                <Grid Margin="96,27,318,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/c9fc600ef204d827480879c386dffc79_3495272291353672486.png"/>
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/new.png" Margin="38,18,-4,53"/>
+                </Grid>
+                <Grid Margin="12,27,402,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/ef3664246f92f1fd45b5819387312b87_3801708708812573307.png"/>
+                </Grid>
+                <Grid Margin="260,28,154,-1">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/d234f09ac6929c4fd419ffd1a257105e_4509773805935408089.png"/>
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/new.png" Margin="38,18,-4,53"/>
+
+                </Grid>
+            </Grid>
+        </Border>
+        <Border Width="472" Height="109" BorderBrush="#99CFC4AD" BorderThickness="1,1,1,1" CornerRadius="4,4,4,4" Margin="0,14,0,0">
+            <Grid Height="109" Width="472">
+                <Border BorderBrush="#99CFC4AD" Margin="12,0,12,81" Height="28" BorderThickness="0,0,0,1">
+                    <TextBlock Margin="0,4,0,0" Height="18" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF4C5568">
+                        天赋升级素材预览：
+                    <Run Foreground="#FF987E65">
+                    「黄金」的教导、导能绘卷、无光涡眼等 
+                </Run>
+                    </TextBlock>
+                </Border>
+                <Grid Margin="178,27,236,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/029bef4ade1c6267a6f36ed2435350b4_8282358605369216198.png" Margin="6,0,6,0"/>
+                </Grid>
+                <Grid Margin="96,27,318,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/624a56235aca47d1390dcfee1a4057e1_6728766873660929243.png" Margin="5,3,5,3"/>
+                </Grid>
+                <Grid Margin="12,27,402,0">
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/material-bg.739a1566..png" />
+                    <Image RenderOptions.BitmapScalingMode="Fant" Source="/pages/home/js/contentpage/e79b69c0ef491010db0ebca06d117e1e_597996259659400827.png" Margin="8,0,8,0"/>
+                </Grid>
+            </Grid>
+        </Border>
+        <Frame Source="/pages/home/js/contentpage2/infpage/ainfo.xaml" BorderBrush="{x:Null}" Margin="0,16,0,0"/>
+    </StackPanel>
+</Page>

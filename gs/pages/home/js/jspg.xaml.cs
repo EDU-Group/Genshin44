@@ -18,9 +18,9 @@ namespace gs.pages.home.js
     /// <summary>
     /// jspg.xaml 的交互逻辑
     /// </summary>
-    public partial class jspg2 : Page
+    public partial class jspg : Page
     {
-        public jspg2()
+        public jspg()
         {
             InitializeComponent();
         }
@@ -54,5 +54,9 @@ namespace gs.pages.home.js
             MainWindow.PageI = "/pages/home/sys/syspg.xaml";
         }
 
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            infoframe.Source = new Uri("/pages/home/js/contentpage/Page1.xaml", 0);
+        }
     }
 }

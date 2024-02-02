@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Brush x:Key="DarkBlue">#FF53676D</Brush>
+    <Brush x:Key="DarkYellow">#FF9a7660</Brush>
+    <TextBlock x:Key="DefaultTitleBlue" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="14"></TextBlock>
+    <TextBlock x:Key="DefaultTitleYellow" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold" FontSize="14"></TextBlock>
+    <TextBlock x:Key="DefaulTextBlue" Foreground="{DynamicResource DarkBlue}" FontWeight="Bold" FontSize="10"></TextBlock>
+    <TextBlock x:Key="DefaultTextYellow" Foreground="{DynamicResource DarkYellow}" FontWeight="Bold" FontSize="10"></TextBlock>
+    
+</ResourceDictionary>

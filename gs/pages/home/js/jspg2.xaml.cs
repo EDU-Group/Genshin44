@@ -18,9 +18,9 @@ namespace gs.pages.home.js
     /// <summary>
     /// jspg.xaml 的交互逻辑
     /// </summary>
-    public partial class jspg : Page
+    public partial class jspg2 : Page
     {
-        public jspg()
+        public jspg2()
         {
             InitializeComponent();
         }
