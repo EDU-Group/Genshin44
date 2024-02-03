@@ -1,4 +1,5 @@
-﻿using System;
+﻿using gs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,17 @@ namespace gs44.pages.home.update
         {
             InitializeComponent();
             //BeginInit();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow.
+             PageI = "/pages/home/update/content/c01.xaml";
         }
     }
 }

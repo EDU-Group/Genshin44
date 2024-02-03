@@ -37,6 +37,7 @@
                     <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">版本活动</TextBlock>
                 </Border>
                 <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,6,6" FontSize="10" Foreground="#FFDAB397">01-30</TextBlock>
+                <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Height="149" Width="191" Cursor="Hand" Click="Button_Click_1"/>
             </Grid>
             <Grid Width="191" Height="149" Margin="12,0,0,0">
                 <Border Background="#FFF9F5EB" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1" CornerRadius="6"/>
@@ -72,9 +73,7 @@
         4.4版本「七圣召唤」更新说明
 
                 </TextBlock>
-                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
-                    
-                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold"/>
                 <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
                     <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">新系统</TextBlock>
                 </Border>
@@ -91,14 +90,10 @@
                         <Border CornerRadius="4,4,4,4" BorderBrush="#FFE0D6C4" BorderThickness="1,1,1,1"/>
                     </Grid>
                 </Border>
-                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">
-                    
-        4.4版本全新武器说明
-
+                <TextBlock FontSize="11" Margin="9,93,3,38" Foreground="#FF4D566B" FontWeight="Bold">          
+                    4.4版本全新武器说明
                 </TextBlock>
-                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
-
-                </TextBlock>
+                <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold"/>
                 <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
                     <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
                         新武器
@@ -146,7 +141,7 @@
                     </Grid>
                 </Border>
                 <TextBlock FontSize="11" Margin="5,93,7,38" Foreground="#FF4D566B" FontWeight="Bold">
-                    「出席宴会的衣饰穿戴，嗯，就选这一身吧。」——「玄玉瑶芳」甘雨全新衣装
+                    「出席宴会的衣饰穿戴，嗯，就选这
                 </TextBlock>
                 <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
                     一身吧。」——「玄玉瑶芳」甘雨...
@@ -173,7 +168,7 @@
                     「这身衣服…你喜欢吗？」——「冷
                 </TextBlock>
                 <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
-                    花幽露」申鹤全新衣装展示                
+                    花幽露」申鹤全新衣装展示
                 </TextBlock>
                 <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
                     <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -197,7 +192,7 @@
                     「暗香裁作剑袍饰，竹影拓为侠客
                 </TextBlock>
                 <TextBlock FontSize="11" Margin="9,108,3,23" Foreground="#FF4D566B" FontWeight="Bold">
-                    衣。」——「雨化竹身」行秋全新...              
+                    衣。」——「雨化竹身」行秋全新...
                 </TextBlock>
                 <Border Background="#FFF5EAD7" Margin="10,129,140,4" CornerRadius="8,8,8,8">
                     <TextBlock FontSize="10" Foreground="#FFA7877F" HorizontalAlignment="Center" VerticalAlignment="Center">

@@ -29,6 +29,23 @@
     <None Remove="pages\home\update\7c4821f718efe5e9ae618ba78b28a9d2_3100013373265541201.jpg" />
     <None Remove="pages\home\update\7d21ede6867d5aed849b41056717d436_4760889101316902371.png" />
     <None Remove="pages\home\update\8dd03991aa5d488a1389061946e74771_2366885366703828581.png" />
+    <None Remove="pages\home\update\content\01.jpg" />
+    <None Remove="pages\home\update\content\02.jpg" />
+    <None Remove="pages\home\update\content\03.jpg" />
+    <None Remove="pages\home\update\content\04.jpg" />
+    <None Remove="pages\home\update\content\05.jpg" />
+    <None Remove="pages\home\update\content\06.jpg" />
+    <None Remove="pages\home\update\content\07.jpg" />
+    <None Remove="pages\home\update\content\08.jpg" />
+    <None Remove="pages\home\update\content\09.jpg" />
+    <None Remove="pages\home\update\content\a.png" />
+    <None Remove="pages\home\update\content\b.png" />
+    <None Remove="pages\home\update\content\back.png" />
+    <None Remove="pages\home\update\content\bg.d0481cc7..png" />
+    <None Remove="pages\home\update\content\c.png" />
+    <None Remove="pages\home\update\content\result-bg-default.15ed1b05..png" />
+    <None Remove="pages\home\update\content\top.png" />
+    <None Remove="pages\home\update\content\下载 %282%29.png" />
     <None Remove="pages\home\update\edbe84fa45c1d1e178363ba597625dfc_2717806797030330812.jpg" />
     <None Remove="pages\home\update\f2a8bf689107e41b1cd69502cd9d00a4_7831510748792839004.jpg" />
     <None Remove="pages\home\update\fdd9303f750c32b43bb774701989f45b_3898861774883045566.jpg" />
@@ -118,6 +135,57 @@
     <Resource Include="pages\home\update\7c4821f718efe5e9ae618ba78b28a9d2_3100013373265541201.jpg" />
     <Resource Include="pages\home\update\7d21ede6867d5aed849b41056717d436_4760889101316902371.png" />
     <Resource Include="pages\home\update\8dd03991aa5d488a1389061946e74771_2366885366703828581.png" />
+    <Content Include="pages\home\update\content\01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\07.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\08.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\09.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\a.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\b.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\bg.d0481cc7..png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\c.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\result-bg-default.15ed1b05..png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\top.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\home\update\content\下载 (2).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Resource Include="pages\home\update\edbe84fa45c1d1e178363ba597625dfc_2717806797030330812.jpg" />
     <Resource Include="pages\home\update\f2a8bf689107e41b1cd69502cd9d00a4_7831510748792839004.jpg" />
     <Resource Include="pages\home\update\fdd9303f750c32b43bb774701989f45b_3898861774883045566.jpg" />
